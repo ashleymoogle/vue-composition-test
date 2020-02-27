@@ -20,7 +20,7 @@
     setup() {
       const state = reactive({
         count: 0,
-        double: computed(() => state.count * 2)
+        double: computed(() => (state?.count ?? 1) * 2)
       })
 
       function increment() {
