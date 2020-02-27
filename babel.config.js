@@ -20,7 +20,7 @@ const config = {
 }
 
 if (process.env.NODE_ENV === 'test') {
-  config.plugins.push('require-context-hook') // breaks with jest and babel during test so added this plugin
+  config.plugins.push('require-context-hook') // can break jest without this plugin
 }
 
 module.exports = config
