@@ -1,5 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import { provide, inject, reactive } from '@vue/composition-api'
+
+import { classView } from './routes.js'
 
 Vue.use(Router)
 
@@ -9,14 +12,17 @@ const router = new Router({
   routes: [
     {
       path: '/',
-      name: 'dashboard',
+      name: 'home',
       components: {
         default: require('../components/test.vue').default,
         mobile: require('../components/test.vue').default
-      },
-      meta: {
-        index: 1,
-        dashboard: true
+      }
+    }, {
+      path: '/class/:name',
+      name: 'class',
+      components: {
+        default: classView,
+        mobile: classView
       }
     }
   ]
@@ -25,5 +31,19 @@ const router = new Router({
 router.beforeEach(async (to, from, next) => {
   await next()
 })
+
+const RouterSymbol = Symbol()
+
+export function provideRouter() {
+  provide(RouterSymbol, reactive(router))
+}
+
+export function useRouter() {
+  const router = inject(RouterSymbol)
+  if (!router) {
+    // throw error, no store provided
+  }
+  return router
+}
 
 export default router

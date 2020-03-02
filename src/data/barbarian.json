@@ -1,0 +1,408 @@
+{
+  "metadata": {
+    "title": "Barbare",
+    "icon": {
+      "rel": ["icon"],
+      "type": "image/gif",
+      "href": "http://www.gemmaline.com/favicon.gif"
+    }
+  },
+  "content": {
+    "level": "body",
+    "content": [],
+    "subsections": [
+      {
+        "name": "Barbare",
+        "level": "h1",
+        "content": ["description", "resources"],
+        "subsections": [
+          {
+            "name": "Comp\u00e9tences",
+            "level": "h4",
+            "content": [
+              {
+                "skills": [
+                  {
+                    "name": "Artisanat",
+                    "href": "./competence-artisanat.htm",
+                    "main_ability": {
+                      "type": "ability",
+                      "name": "Intelligence",
+                      "acronym": "Int"
+                    }
+                  },
+                  {
+                    "name": "Dressage",
+                    "href": "./competence-dressage.htm",
+                    "main_ability": {
+                      "type": "ability",
+                      "name": "Charisma",
+                      "acronym": "Cha"
+                    }
+                  },
+                  {
+                    "name": "\u00c9quitation",
+                    "href": "./competence-equitation.htm",
+                    "main_ability": {
+                      "type": "ability",
+                      "name": "Dexterity",
+                      "acronym": "Dex"
+                    }
+                  },
+                  {
+                    "name": "Escalade",
+                    "href": "./competence-escalade.htm",
+                    "main_ability": {
+                      "type": "ability",
+                      "name": "Strength",
+                      "acronym": "Str"
+                    }
+                  },
+                  {
+                    "name": "Intimidation",
+                    "href": "./competence-intimidation.htm",
+                    "main_ability": {
+                      "type": "ability",
+                      "name": "Charisma",
+                      "acronym": "Cha"
+                    }
+                  },
+                  {
+                    "name": "Natation",
+                    "href": "./competence-natation.htm",
+                    "main_ability": {
+                      "type": "ability",
+                      "name": "Strength",
+                      "acronym": "Str"
+                    }
+                  },
+                  {
+                    "name": "Perception auditive",
+                    "href": "./competence-perceptionauditive.htm",
+                    "main_ability": {
+                      "type": "ability",
+                      "name": "Wisdom",
+                      "acronym": "Wis"
+                    }
+                  },
+                  {
+                    "name": "Saut",
+                    "href": "./competence-saut.htm",
+                    "main_ability": {
+                      "type": "ability",
+                      "name": "Strength",
+                      "acronym": "Str"
+                    }
+                  },
+                  {
+                    "name": "Survie",
+                    "href": "./competence-survie.htm",
+                    "main_ability": {
+                      "type": "ability",
+                      "name": "Wisdom",
+                      "acronym": "Wis"
+                    }
+                  }
+                ],
+                "level1": {
+                  "name": "Points de comp\u00e9tence au niveau 1",
+                  "expression": "(4 + Intelligence modifier) \u00d7 4"
+                },
+                "leveling": {
+                  "name": "Points de comp\u00e9tence \u00e0 chaque niveau",
+                  "expression": "4 + Intelligence modifier"
+                }
+              },
+              {
+                "alignment": { "title": "alignement", "text": "Tout sauf loyal" },
+                "life": { "title": "d\u00e9s de vie", "text": "d12", "expr": "d12" },
+                "gold": {
+                  "title": "argent de d\u00e9part",
+                  "text": "4d4 x 10po (100po)",
+                  "expr": "4d4 \u00d7 10gold (100gold)"
+                }
+              },
+              {
+                "name": "Table : Barbare",
+                "content": [
+                  {
+                    "level": 1,
+                    "attack_bonus": ["+1"],
+                    "reflex_bonus": "+0",
+                    "fortitude_bonus": "+2",
+                    "will_bonus": "+0",
+                    "special": [
+                      { "name": "D\u00e9placement acc\u00e9l\u00e9r\u00e9" },
+                      { "name": "Illettrisme" },
+                      { "name": "Rage de berserker", "info": "1/jour" }
+                    ]
+                  },
+                  {
+                    "level": 2,
+                    "attack_bonus": ["+2"],
+                    "reflex_bonus": "+0",
+                    "fortitude_bonus": "+3",
+                    "will_bonus": "+0",
+                    "special": [{ "name": "Esquive instinctive" }]
+                  },
+                  {
+                    "level": 3,
+                    "attack_bonus": ["+3"],
+                    "reflex_bonus": "+1",
+                    "fortitude_bonus": "+3",
+                    "will_bonus": "+1",
+                    "special": [{ "name": "Sens des pi\u00e8ges", "info": "+1" }]
+                  },
+                  {
+                    "level": 4,
+                    "attack_bonus": ["+4"],
+                    "reflex_bonus": "+1",
+                    "fortitude_bonus": "+4",
+                    "will_bonus": "+1",
+                    "special": [{ "name": "Rage de berserker", "info": "2/jour" }]
+                  },
+                  {
+                    "level": 5,
+                    "attack_bonus": ["+5"],
+                    "reflex_bonus": "+1",
+                    "fortitude_bonus": "+4",
+                    "will_bonus": "+1",
+                    "special": [{ "name": "Esquive instinctive sup\u00e9rieure" }]
+                  },
+                  {
+                    "level": 6,
+                    "attack_bonus": ["+6", "+1"],
+                    "reflex_bonus": "+2",
+                    "fortitude_bonus": "+5",
+                    "will_bonus": "+2",
+                    "special": [{ "name": "Sens des pi\u00e8ges", "info": "+2" }]
+                  },
+                  {
+                    "level": 7,
+                    "attack_bonus": ["+7", "+2"],
+                    "reflex_bonus": "+2",
+                    "fortitude_bonus": "+5",
+                    "will_bonus": "+2",
+                    "special": [
+                      {
+                        "name": "R\u00e9duction des d\u00e9g\u00e2ts",
+                        "info": "1/\u0096"
+                      }
+                    ]
+                  },
+                  {
+                    "level": 8,
+                    "attack_bonus": ["+8", "+3"],
+                    "reflex_bonus": "+2",
+                    "fortitude_bonus": "+6",
+                    "will_bonus": "+2",
+                    "special": [{ "name": "Rage de berserker", "info": "3/jour" }]
+                  },
+                  {
+                    "level": 9,
+                    "attack_bonus": ["+9", "+4"],
+                    "reflex_bonus": "+3",
+                    "fortitude_bonus": "+6",
+                    "will_bonus": "+3",
+                    "special": [{ "name": "Sens des pi\u00e8ges", "info": "+3" }]
+                  },
+                  {
+                    "level": 10,
+                    "attack_bonus": ["+10", "+5"],
+                    "reflex_bonus": "+3",
+                    "fortitude_bonus": "+7",
+                    "will_bonus": "+3",
+                    "special": [
+                      {
+                        "name": "R\u00e9duction des d\u00e9g\u00e2ts",
+                        "info": "2/\u0096"
+                      }
+                    ]
+                  },
+                  {
+                    "level": 11,
+                    "attack_bonus": ["+11", "+6", "+1"],
+                    "reflex_bonus": "+3",
+                    "fortitude_bonus": "+7",
+                    "will_bonus": "+3",
+                    "special": [{ "name": "Rage de grand berserker" }]
+                  },
+                  {
+                    "level": 12,
+                    "attack_bonus": ["+12", "+7", "+2"],
+                    "reflex_bonus": "+4",
+                    "fortitude_bonus": "+8",
+                    "will_bonus": "+4",
+                    "special": [
+                      { "name": "Rage de berserker", "info": "4/jour" },
+                      { "name": "Sens des pi\u00e8ges", "info": "+4" }
+                    ]
+                  },
+                  {
+                    "level": 13,
+                    "attack_bonus": ["+13", "+8", "+3"],
+                    "reflex_bonus": "+4",
+                    "fortitude_bonus": "+8",
+                    "will_bonus": "+4",
+                    "special": [
+                      {
+                        "name": "R\u00e9duction des d\u00e9g\u00e2ts",
+                        "info": "3/\u0096"
+                      }
+                    ]
+                  },
+                  {
+                    "level": 14,
+                    "attack_bonus": ["+14", "+9", "+4"],
+                    "reflex_bonus": "+4",
+                    "fortitude_bonus": "+9",
+                    "will_bonus": "+4",
+                    "special": [{ "name": "Volont\u00e9 indomptable" }]
+                  },
+                  {
+                    "level": 15,
+                    "attack_bonus": ["+15", "+10", "+5"],
+                    "reflex_bonus": "+5",
+                    "fortitude_bonus": "+9",
+                    "will_bonus": "+5",
+                    "special": [{ "name": "Sens des pi\u00e8ges", "info": "+5" }]
+                  },
+                  {
+                    "level": 16,
+                    "attack_bonus": ["+16", "+11", "+6", "+1"],
+                    "reflex_bonus": "+5",
+                    "fortitude_bonus": "+10",
+                    "will_bonus": "+5",
+                    "special": [
+                      { "name": "Rage de berserker", "info": "5/jour" },
+                      {
+                        "name": "R\u00e9duction des d\u00e9g\u00e2ts",
+                        "info": "4/\u0096"
+                      }
+                    ]
+                  },
+                  {
+                    "level": 17,
+                    "attack_bonus": ["+17", "+12", "+7", "+2"],
+                    "reflex_bonus": "+5",
+                    "fortitude_bonus": "+10",
+                    "will_bonus": "+5",
+                    "special": [{ "name": "Rage sans fatigue" }]
+                  },
+                  {
+                    "level": 18,
+                    "attack_bonus": ["+18", "+13", "+8", "+3"],
+                    "reflex_bonus": "+6",
+                    "fortitude_bonus": "+11",
+                    "will_bonus": "+6",
+                    "special": [{ "name": "Sens des pi\u00e8ges", "info": "+6" }]
+                  },
+                  {
+                    "level": 19,
+                    "attack_bonus": ["+19", "+14", "+9", "+4"],
+                    "reflex_bonus": "+6",
+                    "fortitude_bonus": "+11",
+                    "will_bonus": "+6",
+                    "special": [
+                      {
+                        "name": "R\u00e9duction des d\u00e9g\u00e2ts",
+                        "info": "5/\u0096"
+                      }
+                    ]
+                  },
+                  {
+                    "level": 20,
+                    "attack_bonus": ["+20", "+15", "+10", "+5"],
+                    "reflex_bonus": "+6",
+                    "fortitude_bonus": "+12",
+                    "will_bonus": "+6",
+                    "special": [
+                      { "name": "Rage de berserker", "info": "6/jour" },
+                      { "name": "Rage de ma\u00eetre berserker" }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "subsections": []
+          },
+          {
+            "name": "Aptitude de classe",
+            "level": "h4",
+            "content": [
+              "Voici les particularit\u00e9s et aptitudes de la classe de Barbare :\n\nArmes et armures. Le barbare est form\u00e9 au maniement de toutes les armes courantes, des armes de guerre et des boucliers (\u00e0 l\u0092exception des pavois). Il est \u00e9galement form\u00e9 au port des armures l\u00e9g\u00e8res et interm\u00e9diaires.\nD\u00e9placement acc\u00e9l\u00e9r\u00e9 (Ext). La vitesse de d\u00e9placement au sol d\u0092un barbare est sup\u00e9rieure de +3 m\u00e8tres \u00e0 la norme de sa race. Ce bonus ne s\u0092applique que s\u0092il ne porte pas d\u0092armure lourde ou de charge lourde. On applique le bonus avant les modificateurs dus \u00e0 une armure ou une charge importante. Par exemple, un barbare humain a une vitesse de d\u00e9placement de 12 m\u00e8tres, au lieu de 9 m\u00e8tres, s\u0092il ne porte pas d\u0092armure ou une armure l\u00e9g\u00e8re. S\u0092il porte une armure interm\u00e9diaire, sa vitesse passe \u00e0 9 m\u00e8tres. Un barbare halfelin a une vitesse de 9 m\u00e8tres, au lieu de 6 m\u00e8tres, lorsqu\u0092il ne porte pas d\u0092armure ou un armure l\u00e9g\u00e8re. Lorsqu\u0092il porte une armure interm\u00e9diaire (ou qu\u0092il porte une charge interm\u00e9diaire), sa vitesse passe \u00e0 6 m\u00e8tres.\nIllettrisme. Le barbare sont le seul aventurier qui ne sache pas automatiquement lire et \u00e9crire. Ils peuvent d\u00e9penser 2 points de comp\u00e9tence pour apprendre d\u0092un coup \u00e0 lire et \u00e9crire toutes les langues qu\u0092ils parlent.\nUn barbare qui prend un niveau dans une autre classe apprend en m\u00eame temps \u00e0 lire. Un personnage d\u0092une autre classe ne devient pas illettr\u00e9 s\u0092il prend un niveau de barbare.\nRage de berserker (Ext). Un barbare peut entrer dans une rage destructrice un certain nombre de fois par jour. Dans cet \u00e9tat, il devient incroyablement plus fort et plus r\u00e9sistant, mais son m\u00e9pris du danger l\u0092emp\u00eache de se d\u00e9fendre efficacement. Il gagne temporairement un bonus de +4 en Force, un bonus de +4 en Constitution ainsi qu\u0092un bonus de moral de +2 aux jets de Volont\u00e9, mais subit dans le m\u00eame temps un malus de \u00962 \u00e0 la classe d\u0092armure.\nCette augmentation de Constitution lui conf\u00e8re 2 points de vie suppl\u00e9mentaires par niveau global, mais ces points de vie disparaissent imm\u00e9diatement lorsque sa valeur de Constitution retombe \u00e0 son niveau normal (ils ne disparaissent pas en premier, contrairement aux points de vie temporaires). Au cours de sa rage, un barbare est incapable d\u0092utiliser les comp\u00e9tences associ\u00e9es \u00e0 la Dext\u00e9rit\u00e9, l\u0092Intelligence ou le Charisme (\u00e0 l\u0092exception d\u0092\u00c9quilibre, \u00c9quitation, \u00c9vasion et Intimidation), la comp\u00e9tence Concentration ou les aptitudes exigeant un minimum de patience ou de concentration, ainsi que lancer des sorts ou activer des objets magiques \u00e0 mot de commande, \u00e0 potentiel magique (comme les baguettes) ou \u00e0 fin d\u0092incantation (comme les parchemins). Il peut se servir de tous ses dons, \u00e0 l\u0092exception d\u0092Expertise du combat et des dons de cr\u00e9ation d\u0092objets ou de m\u00e9tamagie.\nUne crise de rage dure 3 rounds + modificateur de Constitution (c\u0092est la valeur augment\u00e9e de 4 points qui est prise en compte pour ce calcul). S\u0092il le souhaite, le personnage peut y mettre un terme pr\u00e9matur\u00e9ment. Quand le taux d\u0092adr\u00e9naline retombe, le barbare perd les modificateurs de la rage et devient fatigu\u00e9 (malus de \u00962 en Force et en Dext\u00e9rit\u00e9, incapable de charger ou de courir) jusqu\u0092\u00e0 la fin de la rencontre (\u00e0 moins qu\u0092il ait atteint le niveau 17, auquel cas ce handicap ne le concerne plus).\nUn barbare ne peut devenir enrag\u00e9 qu\u0092une fois par rencontre. Au niveau 1, il peut utiliser sa rage de berserker une fois par jour. Au niveau 4 et pour chaque 4 niveaux apr\u00e8s cela, il gagne une utilisation quotidienne suppl\u00e9mentaire (jusqu\u0092\u00e0 un maximum de 6 fois par jour au niveau 20). La transformation ne demande aucune action, mais le personnage ne peut s\u0092y livrer que durant son tour de jeu, pas en r\u00e9ponse \u00e0 l\u0092action d\u0092un autre. Il lui est par exemple impossible d\u0092entrer dans une rage folle pour b\u00e9n\u00e9ficier des points de vie suppl\u00e9mentaires lorsqu\u0092il re\u00e7oit une blessure (pour que les pv additionnels lui soient utiles, il lui faut anticiper le risque et faire appel \u00e0 son aptitude avant que l\u0092adversaire ne frappe).\nEsquive instinctive (Ext). D\u00e8s le niveau 2, le barbare peut r\u00e9agir instinctivement avant m\u00eame que ses sens ne d\u00e9c\u00e8lent une menace. Il conserve son bonus de Dext\u00e9rit\u00e9 \u00e0 la CA m\u00eame s\u0092il est pris au d\u00e9pourvu ou attaqu\u00e9 par un adversaire invisible (il perd toujours ce bonus s\u0092il est immobilis\u00e9).\nSi un barbare poss\u00e8de d\u00e9j\u00e0 cette aptitude gr\u00e2ce \u00e0 une autre classe (comme dans le cas d\u0092un barbare poss\u00e9dant au moins 4 niveaux de roublard), il obtient l\u0092esquive instinctive sup\u00e9rieure (voir ci-dessous) au lieu de l\u0092esquive instinctive.\nSens des pi\u00e8ges (Ext). \u00c0 partir du niveau 3, le barbare acquiert un sens intuitif lui permettant d\u0092\u00e9viter les dangers des pi\u00e8ges, ce qui se traduit par un bonus de +1 aux jets de R\u00e9flexes effectu\u00e9s pour \u00e9viter les pi\u00e8ges et un bonus d\u0092esquive de +1 \u00e0 la CA contre les attaques d\u00e9clench\u00e9es par des pi\u00e8ges. Ces bonus augmentent de +1 tous les 3 niveaux de barbare suppl\u00e9mentaires (niveaux 6, 9, 12, 15 et 18). Les bonus de sens des pi\u00e8ges de plusieurs classes se cumulent entre eux.\nEsquive instinctive sup\u00e9rieure (Ext). Au niveau 5, le barbare ne peut plus \u00eatre pris en tenaille, car il pare les assauts de ses adversaires avec autant d\u0092aisance que s\u0092ils venaient tous de la m\u00eame direction. Les roublards ne peuvent plus lui porter des attaques sournoises en le prenant en tenaille, \u00e0 moins d\u0092avoir au moins 4 niveaux de roublard de plus que le personnage n\u0092a de niveaux de barbare.\nSi un personnage poss\u00e8de d\u00e9j\u00e0 l\u0092aptitude d\u0092esquive instinctive gr\u00e2ce \u00e0 une autre classe, il obtient l\u0092esquive instinctive sup\u00e9rieure d\u00e8s le niveau 2 de barbare et les niveaux des diff\u00e9rentes classes proposant cette aptitude se cumulent pour d\u00e9terminer le niveau de roublard n\u00e9cessaire pour le prendre en tenaille.\nR\u00e9duction des d\u00e9g\u00e2ts (Ext). \u00c0 partir du niveau 7, la r\u00e9sistance du barbare lui permet d\u0092ignorer une partie des d\u00e9g\u00e2ts inflig\u00e9s par les coups qu\u0092il encaisse. Chaque fois que le personnage est frapp\u00e9 par une arme ou une attaque naturelle, les d\u00e9g\u00e2ts qu\u0092il subit sont diminu\u00e9s de 1 point. Au niveau 10, puis tous les 3 niveaux de barbare suivants (niveaux 13, 16 et 19), cette r\u00e9duction des d\u00e9g\u00e2ts augmente d\u0092un point. Ce pouvoir peut amener les d\u00e9g\u00e2ts d\u0092une attaque \u00e0 0, mais pas en dessous.\nRage de grand berserker (Ext). \u00c0 partir du niveau 11, la rage de berserker conf\u00e8re au barbare un bonus de +6 en Force et en Constitution, ainsi qu\u0092un bonus de moral de +3 aux jets de Volont\u00e9. Le malus \u00e0 la CA reste de \u00962.\nVolont\u00e9 indomptable (Ext). \u00c0 partir du niveau 14, un barbare obtient pendant sa rage un bonus de +4 sur ses jets de Volont\u00e9 jou\u00e9s pour r\u00e9sister aux sorts de l\u0092\u00e9cole des enchantements. Ce bonus se cumule avec les autres modificateurs, y compris le bonus de moral sur les jets de Volont\u00e9 qu\u0092il re\u00e7oit pendant sa rage.\nRage sans fatigue (Ext). Au niveau 17 et au-del\u00e0, un barbare n\u0092est plus fatigu\u00e9 au terme de sa rage de berserker.\nRage de ma\u00eetre berserker (Ext). Au niveau 20, la rage de berserker conf\u00e8re au barbare un bonus de +8 en Force et en Constitution, ainsi qu\u0092un bonus de moral de +4 aux jets de Volont\u00e9. Le malus \u00e0 la CA reste de \u00962"
+            ],
+            "subsections": [
+              {
+                "name": "Dons li\u00e9s aux aptitudes",
+                "level": "h5",
+                "content": [
+                  "Rage de berserker : \nBerserker gel\u00e9, Bousculade d\u00e9cha\u00een\u00e9e, Bousculade enrag\u00e9e, Chaleur enrag\u00e9, Chance enrag\u00e9e, Chant de la rage, Courroux du vertueux, D\u00e9ferlante enrag\u00e9e, Destruction enrag\u00e9e, F\u00e9rocit\u00e9 gnoll, Furie de la folie, Furie du Chaos, Furie mont\u00e9e, Furie partag\u00e9e, Incantation de rage, Invincibilit\u00e9 de la rage, Longue rage, Rage br\u00fblante, Rage canalis\u00e9e, Rage de cobalt, Rage destructrice, Rage draconique, Rage \u00e9ternelle, Rage flamboyante, Rage fr\u00e9n\u00e9tique, Rage impressionante, Rage instantan\u00e9e, Rage int\u00e9rieure, Rage intimidante, Rage souill\u00e9e, Rage souterraine, Rage suppl\u00e9mentaire, Rage t\u00e9m\u00e9raire, Rage terrestre\n\nSens des pi\u00e8ges : \nSp\u00e9cialiste des pi\u00e8ges\n\nEsquive instinctive sup\u00e9rieure : \nIntouchable"
+                ],
+                "subsections": []
+              }
+            ]
+          },
+          {
+            "name": "Niveaux de substitution",
+            "level": "h4",
+            "content": [],
+            "subsections": [
+              {
+                "name": "Allure intimidante",
+                "level": "h5",
+                "content": [
+                  "Le personnage porte des scarifications et tatouages tribaux effrayants.\nNiveau : 3\nRemplace : Sens des pi\u00e8ges\nConditions : Halfelins\nBonus : Le personnage gagne un bonus de +1 \u00e0 ses jets d'Intimidation. A chaque fois qu'il devrait augmenter son bonus de Sens des pi\u00e8ges, le bonus d'intimidation augmente de +1 \u00e0 la place.\nSource : Dragon Magazine #342"
+                ],
+                "subsections": []
+              },
+              {
+                "name": "Courage fantastique",
+                "level": "h5",
+                "content": [
+                  "Beaucoup de tribus barbares v\u00e9n\u00e8rent les dragons, tandis que d'autres les consid\u00e8rent comme des catastrophes naturelles. Quoi qu'il en soit, certains barbares apprennent \u00e0 s'attaquer \u00e0 la peur effr\u00e9n\u00e9e que ces grandes b\u00eates peuvent cr\u00e9er chez des cibles faibles.\nNiveau : 8\nRemplace : Esquive instinctive sup\u00e9rieure\nConditions : Aucune\nBonus : Le personnage devient immunis\u00e9 \u00e0 la pr\u00e9sence terrifiante des dragons. Il gagne de plus un bonus de +4 \u00e0 ses jets de sauvegarde contre les effets de terreur.\nSource : Dragon Magic"
+                ],
+                "subsections": []
+              },
+              {
+                "name": "Sens des sorts",
+                "level": "h5",
+                "content": [
+                  "Le sens naturel du danger du personnage le prot\u00e8ge contre les sorts qui le prennent pour cible.\nNiveau : 3\nRemplace : Sens des pi\u00e8ges\nConditions : Degr\u00e9 de ma\u00eetrise de 1 en Connaissances(myst\u00e8res).\nBonus : Le personnage gagne un bonus d'esquive \u00e0 la CA de +1 contre les sorts et pouvoirs magiques. Ce bonus augmente de +1 tous les 3 niveaux.\nSource : Complete Mage"
+                ],
+                "subsections": []
+              },
+              {
+                "name": "Solide",
+                "level": "h5",
+                "content": [
+                  "Bien que moins \u00e0 l'aise que d'autres contre les pi\u00e8ges, le personnage est encore plus r\u00e9sistant que les autres barbares.\nNiveau : 3\nRemplace : Sens des pi\u00e8ges\nConditions : Aucune\nBonus : Le personnage gagne un bonus de +1 \u00e0 ses jets de Vigueur contre la maladie ainsi que contre les effets devant le rendre fatigu\u00e9 ou \u00e9puis\u00e9. Ce bonus augmente de 1 tous les 3 niveaux (+2 au niveau 6, +3 au niveau 9, ...)\nSource : R\u00e9alisations personnelles - Codex Hero\u00efque"
+                ],
+                "subsections": []
+              }
+            ]
+          },
+          {
+            "name": "Barbare \u00e9pique",
+            "level": "h4",
+            "content": [
+              "Source. Campagnes L\u00e9gendaires\nLe barbare \u00e9pique est une v\u00e9ritable terreur. Incarnation m\u00eame de la rage, ce furieux combattant est capable de r\u00e9duire ses adversaires en miettes\navec une imposante facilit\u00e9. \nRage de berserker. Le barbare \u00e9pique gagne une utilisation de rage de berserker par jour tous les quatre niveaux au-del\u00e0 du niveau 20 (niveaux 24. 28, 32, etc.).\n\nEsquive instinctive. Le bonus aux jets de sauvegarde du barbare face aux pi\u00e8ges augmente de +1 tous les trois niveaux au-del\u00e0 du niveau 18 (niveaux 21, 24, etc.).\nR\u00e9duction des d\u00e9g\u00e2ts. La r\u00e9duction des d\u00e9g\u00e2ts du barbare \u00e9pique augmente d'un point tous les trois niveaux au-del\u00e0 du niveau 19 (niveaux 22, 25, 28, etc.).\n\n\nDons suppl\u00e9mentaires. Le Barbare \u00e9pique gagne un don suppl\u00e9mentaire (\u00e0 choisir dans la liste figurant ci-dessous) tous les 4 niveaux au-del\u00e0 du niveau 20 (niveaux 24, 28, 32, etc.).\nListe de dons suppl\u00e9mentaires du Barbare \u00e9pique.\nSource Campagnes L\u00e9gendaires : Arme de pr\u00e9dilection \u00e9pique, Cavalier l\u00e9gendaire, Charge sanguinaire, Critique an\u00e9antissant, Critique d\u00e9vastateur, Endurance \u00e9pique, Grimpeur l\u00e9gendaire, Gu\u00e9rison acc\u00e9l\u00e9r\u00e9e, Incitation de la rage, Lutteur l\u00e9gendaire, Peau m\u00e9tallique, Pisteur l\u00e9gendaire, Prouesse \u00e9pique, Rage chaotique, Rage de tonnerre, Rage fracassante, Rage puissante, Rage terrifiante, Rapidit\u00e9 \u00e9pique, R\u00e9duction des d\u00e9g\u00e2ts, Robustesse \u00e9pique, Sauteur l\u00e9gendaire"
+            ],
+            "subsections": []
+          },
+          {
+            "name": "Barbares alternatifs",
+            "level": "h4",
+            "content": [
+              "Voici la liste des barbares alternatifs",
+              "Seigneur des chevaux (Dragon Magazine #337)\nBarbare civilis\u00e9 (Manuel du Joueur de Gemmaline)\nBarbare des steppes (Eternal  Rome)",
+              "Retour \u00e0 la liste des classes",
+              ""
+            ],
+            "subsections": []
+          }
+        ]
+      }
+    ]
+  }
+}

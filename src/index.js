@@ -5,6 +5,7 @@
 import Vue from 'vue'
 import VueCompositionApi from '@vue/composition-api';
 import Vuelidate from 'vuelidate'
+import TreeView from "vue-json-tree-view"
 
 import store from './store'
 import router from './router'
@@ -26,6 +27,8 @@ const style = {
 Vue.use(VueCompositionApi);
 
 Vue.use(Vuelidate)
+
+Vue.use(TreeView)
 
 Vue.prototype.$mobile = window.innerWidth <= 720
 // Init vue

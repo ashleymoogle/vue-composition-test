@@ -1,13 +1,21 @@
 <template>
   <div id="app">
-    <router-view />
+    <menu-bar>
+      <router-view />
+    </menu-bar>
   </div>
 </template>
 
 <script>
+  import menuBar from './components/partials/menus/menu-bar.vue'
+  import { provideRouter } from './router'
+
   export default {
     name: 'App',
-    components: {}
+    components: { menuBar },
+    setup(props, { root: { $router} }) {
+      provideRouter($router)
+    }
   }
 </script>
 
