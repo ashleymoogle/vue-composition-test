@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper-class">
-    <div v-if="!state.isLoading">
-      <h1>{{state.rpgClass.content.subsections[0].name}}</h1>
-      <tree-view :data="state.rpgClass" :options="{maxDepth: 100}"></tree-view>
+    <div v-if="!isLoading">
+      <h1>{{rpgClass.content.subsections[0].name}}</h1>
+      <tree-view :data="rpgClass" :options="{maxDepth: 100}"></tree-view>
     </div>
     <div v-else>
       loading...
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-  import {onMounted, reactive, ref} from '@vue/composition-api'
+  import {onMounted, reactive, toRefs, ref} from '@vue/composition-api'
   import { useRouter } from '../router'
   export default {
     name: 'class-view',
@@ -20,7 +20,6 @@
       const $router = useRouter()
       const $route = $router.currentRoute
 
-      let a = {}
       const state = reactive({
         isLoading: true,
         rpgClass: {}
@@ -29,11 +28,12 @@
       onMounted(async () => {
         const data = await import(`../data/${$route.params.name}`)
         state.rpgClass = JSON.parse(JSON.stringify(data))
+        console.log(state.rpgClass)
         state.isLoading = false
       })
 
       return {
-        state
+        ...toRefs(state)
       }
     }
   }
