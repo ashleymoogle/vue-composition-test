@@ -1,20 +1,20 @@
 const classParse = (data) => {
-  console.log(data)
-  const title = data.__metadata.title.toLowerCase()
+  console.log('raw', data)
+  const body = data.body.class
   return {
-    title: data.__metadata.title,
+    title: body.__name,
     baseContent: {
-      source: data.body[title].__content.resources[0].content[0].description,
-      description: data.body[title].__content.description,
+      source: body.__content.resources[0].content[0].description,
+      description: body.__content.description,
       baseSkills: {
-        level1: data.body[title].competences.__content[0].level1.expression,
-        leveling: data.body[title].competences.__content[0].leveling.expression
+        level1: body.competences.skill_points.level1.expression,
+        leveling: body.competences.skill_points.every_level.expression
       },
-      hp: data.body[title].competences.__content[1].life.expr,
-      gold: data.body[title].competences.__content[1].gold.expr,
-      alignment: data.body[title].competences.__content[1]?.alignment ?? ''
+      hp: body.competences.starting_life.expr,
+      gold: body.competences.starting_gold.expr,
+      alignment: body.competences?.alignment?.text ?? ''
     },
-    skills: data.body[title].competences.__content[0].skills.reduce((acc, item) => {
+    skills: body.competences.class_skills.reduce((acc, item) => {
       const skill = {
         name: item.name,
         ability: item.main_ability.acronym
@@ -22,10 +22,10 @@ const classParse = (data) => {
       acc.push(skill)
       return acc
     }, []),
-    table: data.body[title].competences.__content[2],
+    table: body.competences.class_table.data,
     classAbilities: {
-      gear: data.body[title].aptitude_de_classe.__content,
-      feats: data.body[title].aptitude_de_classe.dons_liers_aux_aptitudes
+      gear: body.aptitude_de_classe.__content, //TODO: prune this and split by class ability
+      feats: body.aptitude_de_classe.dons_liers_aux_aptitudes //TODO: Is it relevant?
     }
   }
 }

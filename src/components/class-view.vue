@@ -15,6 +15,17 @@
           </span>
         </tooltip>
       </div>
+      <div class="supplement">
+        <div v-if="rpgClass.baseContent.alignment !== ''" class="supplement-item">
+          <span class="is-bold">Alignement</span>: {{ rpgClass.baseContent.alignment }}
+        </div>
+        <div class="supplement-item">
+          <span class="is-bold">DV</span>: {{ rpgClass.baseContent.hp }}
+        </div>
+        <div class="supplement-item">
+          <span class="is-bold">Golds</span>: {{ rpgClass.baseContent.gold }}
+        </div>
+      </div>
       <tree-view :data="json" :options="{maxDepth: 100}"></tree-view>
     </div>
     <div v-else>
@@ -45,6 +56,7 @@
         const data = await import(`../data/${$route.params.name}`)
         state.json = JSON.parse(JSON.stringify(data))
         state.rpgClass = classParse(state.json)
+        console.log('format', state.rpgClass)
         state.isLoading = false
       })
 
@@ -60,6 +72,15 @@
     padding: 20px;
     .desc {
       margin: 10px 0;
+    }
+    .supplement {
+      margin: 10px 0;
+      .is-bold {
+        font-weight: bolder;
+      }
+      .supplement-item {
+        margin: 10px 0;
+      }
     }
     .skills {
       margin: 10px 0;
