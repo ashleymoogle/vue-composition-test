@@ -4,8 +4,8 @@ const classParse = (data) => {
   return {
     title: body.__name,
     baseContent: {
-      source: body.__content.resources[0].content[0].description,
-      description: body.__content.description,
+      source: body.__content.resources[0].content[0].description, //TODO: More descriptive keys
+      description: body.__content.description, //TODO: More descriptive keys
       baseSkills: {
         level1: body.competences.skill_points.level1.expression,
         leveling: body.competences.skill_points.every_level.expression
