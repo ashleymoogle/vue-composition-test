@@ -1,6 +1,52 @@
 {
   "hello": "Hello",
   "spell": "A spell is something a caster can use.",
+  "abilities": {
+    "Str": "STR",
+    "Dex": "DEX",
+    "Con": "CON",
+    "Int": "INT",
+    "Wis": "WIS",
+    "Cha": "CHA"
+  },
+  "skills": {
+    "Artisanat": {
+      "name": "Artisanat",
+      "desc": "Capacité de creer des trucs."
+    },
+    "Dressage": {
+      "name": "Dressage",
+      "desc": "La capacité de dresser des animaux."
+    },
+    "Équitation": {
+      "name": "Équitation",
+      "desc": "La capacité d'equiter'."
+    },
+    "Escalade": {
+      "name": "Escalade",
+      "desc": "La capacité d'equiter."
+    },
+    "Intimidation": {
+      "name": "Intimidation",
+      "desc": "GIVE. NOW."
+    },
+    "Natation": {
+      "name": "Natation",
+      "desc": "Swim, be free."
+    },
+    "Perception auditive": {
+      "name": "Perception auditive",
+      "desc": "La capacité d'entendre des trucs."
+    },
+    "Saut": {
+      "name": "Saut",
+      "desc": "How high?"
+    },
+    "Survie": {
+      "name": "Survie",
+      "desc": "Drink your own pee."
+    }
+  },
   "spells": {
     "destruction": {
       "11": {

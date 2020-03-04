@@ -2,6 +2,7 @@
   <span @mouseleave="toggle($event, false)">
     <div v-if="display" :class="`tooltip ${display ? 'active' : ''}`" :style="state.tooltipStyles">
       <tooltip-normal v-if="type === 'normal'" :item="item" />
+      <tooltip-skill v-if="type === 'skill'" :item="item" />
       <tooltip-spell v-if="type === 'spell'" :item="item" />
     </div>
     <span class="element" @mouseover="toggle($event, true)">
@@ -14,9 +15,10 @@
   import { reactive, computed, ref } from '@vue/composition-api'
   import tooltipNormal from './tooltipsStyles/tooltipNormal.vue'
   import tooltipSpell from './tooltipsStyles/tooltipSpell.vue'
+  import tooltipSkill from './tooltipsStyles/tooltipSkill.vue'
   export default {
     name: 'tooltip',
-    components: { tooltipNormal, tooltipSpell },
+    components: { tooltipNormal, tooltipSpell, tooltipSkill },
     props: {
       item: String,
       type: {
@@ -35,16 +37,17 @@
         tooltipStyles: computed(() => {
           const direction = {
             horizontal: window.screen.width - state.pos.x > 500 ? 'left' : 'right',
-            vertical: window.screen.height - state.pos.y > 500 ? 'top' : 'bottom',
+            vertical: window.screen.height - state.pos.y > 300 ? 'top' : 'bottom',
           }
           const position = {
             x: window.screen.width - state.pos.x > 500 ? state.pos.x : window.screen.width - state.pos.x,
-            y: window.screen.height - state.pos.y > 500 ? state.pos.y : window.screen.height - state.pos.y
+            y: window.screen.height - state.pos.y > 300 ? state.pos.y : window.screen.height - state.pos.y
           }
           return `${direction.horizontal}: ${position.x}px;${direction.vertical}: ${position.y}px;`
         })
       })
       const toggle = (e, bool) => {
+        console.log(e)
         state.pos = {
           x: e.clientX,
           y: e.clientY
@@ -62,7 +65,7 @@
 
 <style lang="scss" scoped>
   .tooltip {
-    position: absolute;
+    position: fixed;
     display: none;
     z-index: 10;
     background-color: $super-light-grey;
