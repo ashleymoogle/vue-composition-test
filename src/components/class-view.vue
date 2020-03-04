@@ -3,7 +3,7 @@
     <div v-if="!isLoading">
       <h1>{{rpgClass.title}}</h1>
       <div>
-        Source: {{ rpgClass.baseContent.source }}
+        Source: <span v-for="(source, index) in rpgClass.baseContent.source" :key="`source-${index}`">{{ source }}{{index > rpgClass.baseContent.source.length ? ', ' : ''}}</span>
       </div>
       <div class="desc">
         {{ rpgClass.baseContent.description }}

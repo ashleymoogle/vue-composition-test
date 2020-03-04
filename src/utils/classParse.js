@@ -1,20 +1,24 @@
+
 const classParse = (data) => {
   console.log('raw', data)
   const body = data.body.class
   return {
     title: body.__name,
     baseContent: {
-      source: body.__content.resources[0].content[0].description, //TODO: More descriptive keys
-      description: body.__content.description, //TODO: More descriptive keys
+      source: body.description.resources.reduce((acc, item) => {
+        acc.push(item.content[0].text)
+        return acc
+      }, []),
+      description: body.description.text,
       baseSkills: {
-        level1: body.competences.skill_points.level1.expression,
-        leveling: body.competences.skill_points.every_level.expression
+        level1: body.skills.skill_points.level1.expression,
+        leveling: body.skills.skill_points.every_level.expression
       },
-      hp: body.competences.starting_life.expr,
-      gold: body.competences.starting_gold.expr,
-      alignment: body.competences?.alignment?.text ?? ''
+      hp: body.skills.starting_life.expr,
+      gold: body.skills.starting_gold.expr,
+      alignment: body.skills?.alignment?.text ?? ''
     },
-    skills: body.competences.class_skills.reduce((acc, item) => {
+    skills: body.skills.class_skills.reduce((acc, item) => {
       const skill = {
         name: item.name,
         ability: item.main_ability.acronym
@@ -22,10 +26,11 @@ const classParse = (data) => {
       acc.push(skill)
       return acc
     }, []),
-    table: body.competences.class_table.data,
-    classAbilities: {
-      gear: body.aptitude_de_classe.__content, //TODO: prune this and split by class ability
-      feats: body.aptitude_de_classe.dons_liers_aux_aptitudes //TODO: Is it relevant?
+    table: body.skills.class_table.data,
+    features: {
+      gear: body.aptitude_de_classe.gear.description,
+      feats: body.aptitude_de_classe.dons_lies_aux_aptitudes.for_feature,
+      classFeatures: body.aptitude_de_classe.features
     }
   }
 }

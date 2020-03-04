@@ -14,29 +14,18 @@
     "class": {
       "__name": "Barbare",
       "__level": "h1",
-      "__content": {
-        "description": "Ces combattants courageux et t\u00e9m\u00e9raires sont natifs des \u00e9tendues gel\u00e9es du nord ou des jungles cauchemardesques du sud. Selon les r\u00e9gions, les peuples civilis\u00e9s les d\u00e9signent sous le nom de barbares, baresarks ou berserkers (de ber, d\u00e9riv\u00e9 de bj\u00f6rn, et sekr, qui dans leur langue rugueuse, signifie respectivement \u00ab\u00a0ours\u00a0\u00bb et \u00ab\u00a0chemise\u00a0\u00bb) et les accusent de tous les crimes. Mais ces \"barbares\" ont maintes fois fait preuve de leur bravoure et de leur valeur \u00e0 ceux qui ont pris le risque de s'allier avec eux. Quant aux ennemis qui les sous-estimaient, ils ont d\u00e9couvert des guerriers rus\u00e9s, plein de ressources, pers\u00e9v\u00e9rants et impitoyables.\nLes barbares sont d'excellents combattants. Mais tandis que l'efficacit\u00e9 des guerriers provient de leur entra\u00eenement rigoureux, celle des barbares provient de la rage qui les anime. Quand la fureur du combat d\u00e9ferle en eux, ils deviennent brusquement plus forts et plus r\u00e9sistants aux attaques. Maintenir un tel \u00e9tat n\u00e9cessite une incroyable d\u00e9pense d'\u00e9nergie et les laisse \u00e9puis\u00e9s, aussi doivent-ils vaincre rapidement, ce qui ne leur pose g\u00e9n\u00e9ralement pas de probl\u00e8mes. A l'aise dans les contr\u00e9es sauvages, ils se d\u00e9placent tr\u00e8s rapidement au pas de course.\nLes barbares ne sont jamais loyaux. Ils peuvent se montrer honorables, mais au fond ils demeurent incontr\u00f4lables. Cette sauvagerie fait partie int\u00e9grante de leur nature et constitue leur principale force, mais elle est totalement incompatible avec un alignement loyal. Dans le meilleur des cas, les barbares chaotiques sont libres et particuli\u00e8rement spontan\u00e9s, mais ils peuvent \u00e9galement se montrer destructeurs et faire peu de cas de la vie.\nLa plupart des barbares faer\u00fbniens sont humains ou demi-orques. Ils viennent de r\u00e9gions comme les Terres gel\u00e9es, le Nord, la Rash\u00e9m\u00e9nie, mais aussi de diverses tribus des Contr\u00e9es du Mitan Occidentales. Les barbares nains viennent des \u00e9tendues glac\u00e9es septentrionales, des jungles de Chult et de poches dissimul\u00e9es dans des montagnes et collines recul\u00e9es. Les barbares elfes sont g\u00e9n\u00e9ralement des elfes sauvages originaires des chaudes for\u00eats m\u00e9ridio\u00adnales, comme la Wealdath ou le Bois de Chondal. Les seules tribus de barbares halfelins connues vivent au plus profond du Bois de Chondal et ne s'aventurent que rarement hors de l'\u00e9treinte v\u00e9g\u00e9tale de la for\u00eat.\nLes barbares d'autres races sont rares mais pas totalement exclus. Ainsi, on trouve parfois des barbares demi-elfes parmi les tribus humaines originaires du Nord et des Contr\u00e9s du Mitan Occidentales, ou encore dans le Bois de Yuir, o\u00f9 humains et elfes cohabitent depuis des g\u00e9n\u00e9rations. Les drows, elfes de la lune, elfes du soleil, gnomes et planaires embrassant une carri\u00e8re de barbare sont le plus souvent des individus qui furent pour une raison ou une autre \u00e9lev\u00e9s parmi des peuplades barbares.\n\u00c9tant habitu\u00e9s \u00e0 la vie sauvage, les barbares sont plus \u00e0 l'aise \u00e0 compagnie de r\u00f4deurs, de druides ou de pr\u00eatres de divinit\u00e9s de la nature. Beaucoup admirent le talent et la spontan\u00e9it\u00e9 des bardes, et certains sont passionn\u00e9s par la musique. Les barbares ne font pas confiance \u00e0 ce qu'ils ne comprennent pas, c'est le cas de la \"magie des livres\" (celle des magiciens). Les ensorceleurs leur poseront moins de probl\u00e8mes, mais peut-\u00eatre est-ce d\u00fb au seul fait qu'ils sont plus charismatiques que les magiciens. Le moine, dont l'approche du combat repose sur la rigueur et la ma\u00eetrise de soi, ne voient pas l'existence de la m\u00eame fa\u00e7on que les barbares, mais cela ne signifie pas l'hostilit\u00e9 entre les membres de ces deux classes. Enfin, les barbares n'\u00e9prouvent ni sympathie ni antipathie pour les guerriers, paladins ou roublards.\nLa Force est importante pour le barbare en raison de son r\u00f4le dans les combats ; de plus, certaines comp\u00e9tences essentielles pour lui, reposent sur cette caract\u00e9ristique. La Dext\u00e9rit\u00e9 est \u00e9galement utile, surtout s'il ne porte qu'une armure l\u00e9g\u00e8re. La Sagesse influe sur l'utilisation de certaines de ses comp\u00e9tences. Enfin, une valeur de Constitution \u00e9lev\u00e9e lui permet de maintenir son \u00e9tat de rage plus longtemps (et aussi de vivre plus vieux, en lui conf\u00e9rant davantage de points de vie).",
-        "resources": [
-          {
-            "name": "Source",
-            "content": [
-              {
-                "type": "link",
-                "href": "./LivreDD3/element-PHB.htm",
-                "description": "Manuel du Joueur"
-              }
-            ]
-          }
-        ]
-      },
+      "__content": [
+        "Source : Manuel du Joueur",
+        "Ces combattants courageux et t\u00e9m\u00e9raires sont natifs des \u00e9tendues gel\u00e9es du nord ou des jungles cauchemardesques du sud. Selon les r\u00e9gions, les peuples civilis\u00e9s les d\u00e9signent sous le nom de barbares, baresarks ou berserkers (de ber, d\u00e9riv\u00e9 de bj\u00f6rn, et sekr, qui dans leur langue rugueuse, signifie respectivement \u00ab\u00a0ours\u00a0\u00bb et \u00ab\u00a0chemise\u00a0\u00bb) et les accusent de tous les crimes. Mais ces \"barbares\" ont maintes fois fait preuve de leur bravoure et de leur valeur \u00e0 ceux qui ont pris le risque de s'allier avec eux. Quant aux ennemis qui les sous-estimaient, ils ont d\u00e9couvert des guerriers rus\u00e9s, plein de ressources, pers\u00e9v\u00e9rants et impitoyables.\nLes barbares sont d'excellents combattants. Mais tandis que l'efficacit\u00e9 des guerriers provient de leur entra\u00eenement rigoureux, celle des barbares provient de la rage qui les anime. Quand la fureur du combat d\u00e9ferle en eux, ils deviennent brusquement plus forts et plus r\u00e9sistants aux attaques. Maintenir un tel \u00e9tat n\u00e9cessite une incroyable d\u00e9pense d'\u00e9nergie et les laisse \u00e9puis\u00e9s, aussi doivent-ils vaincre rapidement, ce qui ne leur pose g\u00e9n\u00e9ralement pas de probl\u00e8mes. A l'aise dans les contr\u00e9es sauvages, ils se d\u00e9placent tr\u00e8s rapidement au pas de course.\nLes barbares ne sont jamais loyaux. Ils peuvent se montrer honorables, mais au fond ils demeurent incontr\u00f4lables. Cette sauvagerie fait partie int\u00e9grante de leur nature et constitue leur principale force, mais elle est totalement incompatible avec un alignement loyal. Dans le meilleur des cas, les barbares chaotiques sont libres et particuli\u00e8rement spontan\u00e9s, mais ils peuvent \u00e9galement se montrer destructeurs et faire peu de cas de la vie.\nLa plupart des barbares faer\u00fbniens sont humains ou demi-orques. Ils viennent de r\u00e9gions comme les Terres gel\u00e9es, le Nord, la Rash\u00e9m\u00e9nie, mais aussi de diverses tribus des Contr\u00e9es du Mitan Occidentales. Les barbares nains viennent des \u00e9tendues glac\u00e9es septentrionales, des jungles de Chult et de poches dissimul\u00e9es dans des montagnes et collines recul\u00e9es. Les barbares elfes sont g\u00e9n\u00e9ralement des elfes sauvages originaires des chaudes for\u00eats m\u00e9ridio\u00adnales, comme la Wealdath ou le Bois de Chondal. Les seules tribus de barbares halfelins connues vivent au plus profond du Bois de Chondal et ne s'aventurent que rarement hors de l'\u00e9treinte v\u00e9g\u00e9tale de la for\u00eat.\nLes barbares d'autres races sont rares mais pas totalement exclus. Ainsi, on trouve parfois des barbares demi-elfes parmi les tribus humaines originaires du Nord et des Contr\u00e9s du Mitan Occidentales, ou encore dans le Bois de Yuir, o\u00f9 humains et elfes cohabitent depuis des g\u00e9n\u00e9rations. Les drows, elfes de la lune, elfes du soleil, gnomes et planaires embrassant une carri\u00e8re de barbare sont le plus souvent des individus qui furent pour une raison ou une autre \u00e9lev\u00e9s parmi des peuplades barbares.\n\u00c9tant habitu\u00e9s \u00e0 la vie sauvage, les barbares sont plus \u00e0 l'aise \u00e0 compagnie de r\u00f4deurs, de druides ou de pr\u00eatres de divinit\u00e9s de la nature. Beaucoup admirent le talent et la spontan\u00e9it\u00e9 des bardes, et certains sont passionn\u00e9s par la musique. Les barbares ne font pas confiance \u00e0 ce qu'ils ne comprennent pas, c'est le cas de la \"magie des livres\" (celle des magiciens). Les ensorceleurs leur poseront moins de probl\u00e8mes, mais peut-\u00eatre est-ce d\u00fb au seul fait qu'ils sont plus charismatiques que les magiciens. Le moine, dont l'approche du combat repose sur la rigueur et la ma\u00eetrise de soi, ne voient pas l'existence de la m\u00eame fa\u00e7on que les barbares, mais cela ne signifie pas l'hostilit\u00e9 entre les membres de ces deux classes. Enfin, les barbares n'\u00e9prouvent ni sympathie ni antipathie pour les guerriers, paladins ou roublards.\nLa Force est importante pour le barbare en raison de son r\u00f4le dans les combats ; de plus, certaines comp\u00e9tences essentielles pour lui, reposent sur cette caract\u00e9ristique. La Dext\u00e9rit\u00e9 est \u00e9galement utile, surtout s'il ne porte qu'une armure l\u00e9g\u00e8re. La Sagesse influe sur l'utilisation de certaines de ses comp\u00e9tences. Enfin, une valeur de Constitution \u00e9lev\u00e9e lui permet de maintenir son \u00e9tat de rage plus longtemps (et aussi de vivre plus vieux, en lui conf\u00e9rant davantage de points de vie)"
+      ],
       "__subsections": [
-        "competences",
+        "skills",
         "aptitude_de_classe",
         "niveaux_de_substitution",
         "barbare_epique",
         "barbares_alternatifs"
       ],
-      "competences": {
+      "skills": {
         "__name": "Comp\u00e9tences",
         "__level": "h4",
         "__content": [
@@ -105,10 +94,20 @@
             "expression": "4 + Intelligence modifier"
           }
         },
-        "alignment": { "title": "alignement", "text": "Tout sauf loyal" },
-        "starting_life": { "title": "d\u00e9s de vie", "text": "d12", "expr": "d12" },
+        "alignment": {
+          "id": "alignement",
+          "title": "Alignement",
+          "text": "Tout sauf loyal"
+        },
+        "starting_life": {
+          "id": "des_de_vie",
+          "title": "D\u00e9s de vie",
+          "text": "d12",
+          "expr": "d12"
+        },
         "starting_gold": {
-          "title": "argent de d\u00e9part",
+          "id": "argent_de_depart",
+          "title": "Argent de d\u00e9part",
           "text": "4d4 x 10po (100po)",
           "expr": "4d4 \u00d7 10gold (100gold)"
         },
@@ -122,9 +121,28 @@
               "fortitude_bonus": "+2",
               "will_bonus": "+0",
               "special": [
-                { "name": "D\u00e9placement acc\u00e9l\u00e9r\u00e9" },
-                { "name": "Illettrisme" },
-                { "name": "Rage de berserker", "info": "1/jour" }
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "D\u00e9placement acc\u00e9l\u00e9r\u00e9",
+                    "id": "deplacement_accelere"
+                  }
+                },
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Illettrisme",
+                    "id": "illettrisme"
+                  }
+                },
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Rage de berserker",
+                    "id": "rage_de_berserker"
+                  },
+                  "info": "1/jour"
+                }
               ]
             },
             {
@@ -133,7 +151,15 @@
               "reflex_bonus": "+0",
               "fortitude_bonus": "+3",
               "will_bonus": "+0",
-              "special": [{ "name": "Esquive instinctive" }]
+              "special": [
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Esquive instinctive",
+                    "id": "esquive_instinctive"
+                  }
+                }
+              ]
             },
             {
               "level": 3,
@@ -141,7 +167,16 @@
               "reflex_bonus": "+1",
               "fortitude_bonus": "+3",
               "will_bonus": "+1",
-              "special": [{ "name": "Sens des pi\u00e8ges", "info": "+1" }]
+              "special": [
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Sens des pi\u00e8ges",
+                    "id": "sens_des_pieges"
+                  },
+                  "info": "+1"
+                }
+              ]
             },
             {
               "level": 4,
@@ -149,7 +184,16 @@
               "reflex_bonus": "+1",
               "fortitude_bonus": "+4",
               "will_bonus": "+1",
-              "special": [{ "name": "Rage de berserker", "info": "2/jour" }]
+              "special": [
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Rage de berserker",
+                    "id": "rage_de_berserker"
+                  },
+                  "info": "2/jour"
+                }
+              ]
             },
             {
               "level": 5,
@@ -157,7 +201,15 @@
               "reflex_bonus": "+1",
               "fortitude_bonus": "+4",
               "will_bonus": "+1",
-              "special": [{ "name": "Esquive instinctive sup\u00e9rieure" }]
+              "special": [
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Esquive instinctive sup\u00e9rieure",
+                    "id": "esquive_instinctive_superieure"
+                  }
+                }
+              ]
             },
             {
               "level": 6,
@@ -165,7 +217,16 @@
               "reflex_bonus": "+2",
               "fortitude_bonus": "+5",
               "will_bonus": "+2",
-              "special": [{ "name": "Sens des pi\u00e8ges", "info": "+2" }]
+              "special": [
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Sens des pi\u00e8ges",
+                    "id": "sens_des_pieges"
+                  },
+                  "info": "+2"
+                }
+              ]
             },
             {
               "level": 7,
@@ -174,7 +235,14 @@
               "fortitude_bonus": "+5",
               "will_bonus": "+2",
               "special": [
-                { "name": "R\u00e9duction des d\u00e9g\u00e2ts", "info": "1/\u0096" }
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "R\u00e9duction des d\u00e9g\u00e2ts",
+                    "id": "reduction_des_degats"
+                  },
+                  "info": "1/\u0096"
+                }
               ]
             },
             {
@@ -183,7 +251,16 @@
               "reflex_bonus": "+2",
               "fortitude_bonus": "+6",
               "will_bonus": "+2",
-              "special": [{ "name": "Rage de berserker", "info": "3/jour" }]
+              "special": [
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Rage de berserker",
+                    "id": "rage_de_berserker"
+                  },
+                  "info": "3/jour"
+                }
+              ]
             },
             {
               "level": 9,
@@ -191,7 +268,16 @@
               "reflex_bonus": "+3",
               "fortitude_bonus": "+6",
               "will_bonus": "+3",
-              "special": [{ "name": "Sens des pi\u00e8ges", "info": "+3" }]
+              "special": [
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Sens des pi\u00e8ges",
+                    "id": "sens_des_pieges"
+                  },
+                  "info": "+3"
+                }
+              ]
             },
             {
               "level": 10,
@@ -200,7 +286,14 @@
               "fortitude_bonus": "+7",
               "will_bonus": "+3",
               "special": [
-                { "name": "R\u00e9duction des d\u00e9g\u00e2ts", "info": "2/\u0096" }
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "R\u00e9duction des d\u00e9g\u00e2ts",
+                    "id": "reduction_des_degats"
+                  },
+                  "info": "2/\u0096"
+                }
               ]
             },
             {
@@ -209,7 +302,15 @@
               "reflex_bonus": "+3",
               "fortitude_bonus": "+7",
               "will_bonus": "+3",
-              "special": [{ "name": "Rage de grand berserker" }]
+              "special": [
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Rage de grand berserker",
+                    "id": "rage_de_grand_berserker"
+                  }
+                }
+              ]
             },
             {
               "level": 12,
@@ -218,8 +319,22 @@
               "fortitude_bonus": "+8",
               "will_bonus": "+4",
               "special": [
-                { "name": "Rage de berserker", "info": "4/jour" },
-                { "name": "Sens des pi\u00e8ges", "info": "+4" }
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Rage de berserker",
+                    "id": "rage_de_berserker"
+                  },
+                  "info": "4/jour"
+                },
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Sens des pi\u00e8ges",
+                    "id": "sens_des_pieges"
+                  },
+                  "info": "+4"
+                }
               ]
             },
             {
@@ -229,7 +344,14 @@
               "fortitude_bonus": "+8",
               "will_bonus": "+4",
               "special": [
-                { "name": "R\u00e9duction des d\u00e9g\u00e2ts", "info": "3/\u0096" }
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "R\u00e9duction des d\u00e9g\u00e2ts",
+                    "id": "reduction_des_degats"
+                  },
+                  "info": "3/\u0096"
+                }
               ]
             },
             {
@@ -238,7 +360,15 @@
               "reflex_bonus": "+4",
               "fortitude_bonus": "+9",
               "will_bonus": "+4",
-              "special": [{ "name": "Volont\u00e9 indomptable" }]
+              "special": [
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Volont\u00e9 indomptable",
+                    "id": "volonte_indomptable"
+                  }
+                }
+              ]
             },
             {
               "level": 15,
@@ -246,7 +376,16 @@
               "reflex_bonus": "+5",
               "fortitude_bonus": "+9",
               "will_bonus": "+5",
-              "special": [{ "name": "Sens des pi\u00e8ges", "info": "+5" }]
+              "special": [
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Sens des pi\u00e8ges",
+                    "id": "sens_des_pieges"
+                  },
+                  "info": "+5"
+                }
+              ]
             },
             {
               "level": 16,
@@ -255,8 +394,22 @@
               "fortitude_bonus": "+10",
               "will_bonus": "+5",
               "special": [
-                { "name": "Rage de berserker", "info": "5/jour" },
-                { "name": "R\u00e9duction des d\u00e9g\u00e2ts", "info": "4/\u0096" }
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Rage de berserker",
+                    "id": "rage_de_berserker"
+                  },
+                  "info": "5/jour"
+                },
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "R\u00e9duction des d\u00e9g\u00e2ts",
+                    "id": "reduction_des_degats"
+                  },
+                  "info": "4/\u0096"
+                }
               ]
             },
             {
@@ -265,7 +418,15 @@
               "reflex_bonus": "+5",
               "fortitude_bonus": "+10",
               "will_bonus": "+5",
-              "special": [{ "name": "Rage sans fatigue" }]
+              "special": [
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Rage sans fatigue",
+                    "id": "rage_sans_fatigue"
+                  }
+                }
+              ]
             },
             {
               "level": 18,
@@ -273,7 +434,16 @@
               "reflex_bonus": "+6",
               "fortitude_bonus": "+11",
               "will_bonus": "+6",
-              "special": [{ "name": "Sens des pi\u00e8ges", "info": "+6" }]
+              "special": [
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Sens des pi\u00e8ges",
+                    "id": "sens_des_pieges"
+                  },
+                  "info": "+6"
+                }
+              ]
             },
             {
               "level": 19,
@@ -282,7 +452,14 @@
               "fortitude_bonus": "+11",
               "will_bonus": "+6",
               "special": [
-                { "name": "R\u00e9duction des d\u00e9g\u00e2ts", "info": "5/\u0096" }
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "R\u00e9duction des d\u00e9g\u00e2ts",
+                    "id": "reduction_des_degats"
+                  },
+                  "info": "5/\u0096"
+                }
               ]
             },
             {
@@ -292,8 +469,21 @@
               "fortitude_bonus": "+12",
               "will_bonus": "+6",
               "special": [
-                { "name": "Rage de berserker", "info": "6/jour" },
-                { "name": "Rage de ma\u00eetre berserker" }
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Rage de berserker",
+                    "id": "rage_de_berserker"
+                  },
+                  "info": "6/jour"
+                },
+                {
+                  "feature": {
+                    "type": "class_feature",
+                    "name": "Rage de ma\u00eetre berserker",
+                    "id": "rage_de_maitre_berserker"
+                  }
+                }
               ]
             }
           ]
@@ -311,7 +501,336 @@
           "__level": "h5",
           "__content": [
             "Rage de berserker : \nBerserker gel\u00e9, Bousculade d\u00e9cha\u00een\u00e9e, Bousculade enrag\u00e9e, Chaleur enrag\u00e9, Chance enrag\u00e9e, Chant de la rage, Courroux du vertueux, D\u00e9ferlante enrag\u00e9e, Destruction enrag\u00e9e, F\u00e9rocit\u00e9 gnoll, Furie de la folie, Furie du Chaos, Furie mont\u00e9e, Furie partag\u00e9e, Incantation de rage, Invincibilit\u00e9 de la rage, Longue rage, Rage br\u00fblante, Rage canalis\u00e9e, Rage de cobalt, Rage destructrice, Rage draconique, Rage \u00e9ternelle, Rage flamboyante, Rage fr\u00e9n\u00e9tique, Rage impressionante, Rage instantan\u00e9e, Rage int\u00e9rieure, Rage intimidante, Rage souill\u00e9e, Rage souterraine, Rage suppl\u00e9mentaire, Rage t\u00e9m\u00e9raire, Rage terrestre\n\nSens des pi\u00e8ges : \nSp\u00e9cialiste des pi\u00e8ges\n\nEsquive instinctive sup\u00e9rieure : \nIntouchable"
-          ]
+          ],
+          "for_feature": {
+            "rage_de_berserker": {
+              "feature": {
+                "type": "class_feature",
+                "name": "Rage de berserker",
+                "id": "rage_de_berserker"
+              },
+              "list": [
+                {
+                  "type": "class_feat",
+                  "name": "Berserker gel\u00e9",
+                  "id": "berserker_gele",
+                  "href": "dons/dons-berserker-gele-1002.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Bousculade d\u00e9cha\u00een\u00e9e",
+                  "id": "bousculade_dechainee",
+                  "href": "dons/dons-bousculade-dechainee-632.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Bousculade enrag\u00e9e",
+                  "id": "bousculade_enragee",
+                  "href": "dons/dons-bousculade-enragee-1660.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Chaleur enrag\u00e9",
+                  "id": "chaleur_enrage",
+                  "href": "dons/dons-chaleur-enrage-1220.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Chance enrag\u00e9e",
+                  "id": "chance_enragee",
+                  "href": "dons/dons-chance-enragee-1121.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Chant de la rage",
+                  "id": "chant_de_la_rage",
+                  "href": "dons/dons-chant-de-la-rage-1569.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Courroux du vertueux",
+                  "id": "courroux_du_vertueux",
+                  "href": "dons/dons-courroux-du-vertueux-254.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "D\u00e9ferlante enrag\u00e9e",
+                  "id": "deferlante_enragee",
+                  "href": "dons/dons-deferlante-enragee-1304.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Destruction enrag\u00e9e",
+                  "id": "destruction_enragee",
+                  "href": "dons/dons-destruction-enragee-1659.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "F\u00e9rocit\u00e9 gnoll",
+                  "id": "ferocite_gnoll",
+                  "href": "dons/dons-ferocite-gnoll-1057.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Furie de la folie",
+                  "id": "furie_de_la_folie",
+                  "href": "dons/dons-furie-de-la-folie-1212.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Furie du Chaos",
+                  "id": "furie_du_chaos",
+                  "href": "dons/dons-furie-du-chaos-2005.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Furie mont\u00e9e",
+                  "id": "furie_montee",
+                  "href": "dons/dons-furie-montee-1836.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Furie partag\u00e9e",
+                  "id": "furie_partagee",
+                  "href": "dons/dons-furie-partagee-1485.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Incantation de rage",
+                  "id": "incantation_de_rage",
+                  "href": "dons/dons-incantation-de-rage-1661.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Invincibilit\u00e9 de la rage",
+                  "id": "invincibilite_de_la_rage",
+                  "href": "dons/dons-invincibilite-de-la-rage-2186.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Longue rage",
+                  "id": "longue_rage",
+                  "href": "dons/dons-longue-rage-428.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage br\u00fblante",
+                  "id": "rage_brulante",
+                  "href": "dons/dons-rage-brulante-1065.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage canalis\u00e9e",
+                  "id": "rage_canalisee",
+                  "href": "dons/dons-rage-canalisee-946.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage de cobalt",
+                  "id": "rage_de_cobalt",
+                  "href": "dons/dons-rage-de-cobalt-1028.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage destructrice",
+                  "id": "rage_destructrice",
+                  "href": "dons/dons-rage-destructrice-448.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage draconique",
+                  "id": "rage_draconique",
+                  "href": "dons/dons-rage-draconique-1154.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage \u00e9ternelle",
+                  "id": "rage_eternelle",
+                  "href": "dons/dons-rage-eternelle-1873.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage flamboyante",
+                  "id": "rage_flamboyante",
+                  "href": "dons/dons-rage-flamboyante-1182.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage fr\u00e9n\u00e9tique",
+                  "id": "rage_frenetique",
+                  "href": "dons/dons-rage-frenetique-2096.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage impressionante",
+                  "id": "rage_impressionante",
+                  "href": "dons/dons-rage-impressionante-1695.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage instantan\u00e9e",
+                  "id": "rage_instantanee",
+                  "href": "dons/dons-rage-instantanee-449.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage int\u00e9rieure",
+                  "id": "rage_interieure",
+                  "href": "dons/dons-rage-interieure-2274.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage intimidante",
+                  "id": "rage_intimidante",
+                  "href": "dons/dons-rage-intimidante-450.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage souill\u00e9e",
+                  "id": "rage_souillee",
+                  "href": "dons/dons-rage-souillee-2205.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage souterraine",
+                  "id": "rage_souterraine",
+                  "href": "dons/dons-rage-souterraine-1232.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage suppl\u00e9mentaire",
+                  "id": "rage_supplementaire",
+                  "href": "dons/dons-rage-supplementaire-451.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage t\u00e9m\u00e9raire",
+                  "id": "rage_temeraire",
+                  "href": "dons/dons-rage-temeraire-1808.htm"
+                },
+                {
+                  "type": "class_feat",
+                  "name": "Rage terrestre",
+                  "id": "rage_terrestre",
+                  "href": "dons/dons-rage-terrestre-1809.htm"
+                }
+              ]
+            },
+            "sens_des_pieges": {
+              "feature": {
+                "type": "class_feature",
+                "name": "Sens des pi\u00e8ges",
+                "id": "sens_des_pieges"
+              },
+              "list": [
+                {
+                  "type": "class_feat",
+                  "name": "Sp\u00e9cialiste des pi\u00e8ges",
+                  "id": "specialiste_des_pieges",
+                  "href": "dons/dons-specialiste-des-pieges-1264.htm"
+                }
+              ]
+            },
+            "esquive_instinctive_superieure": {
+              "feature": {
+                "type": "class_feature",
+                "name": "Esquive instinctive sup\u00e9rieure",
+                "id": "esquive_instinctive_superieure"
+              },
+              "list": [
+                {
+                  "type": "class_feat",
+                  "name": "Intouchable",
+                  "id": "intouchable",
+                  "href": "dons/dons-intouchable-2377.htm"
+                }
+              ]
+            }
+          }
+        },
+        "features": {
+          "deplacement_accelere": {
+            "type": "class_feature",
+            "name": "D\u00e9placement acc\u00e9l\u00e9r\u00e9",
+            "id": "deplacement_accelere",
+            "description": "La vitesse de d\u00e9placement au sol d\u0092un barbare est sup\u00e9rieure de +3 m\u00e8tres \u00e0 la norme de sa race. Ce bonus ne s\u0092applique que s\u0092il ne porte pas d\u0092armure lourde ou de charge lourde. On applique le bonus avant les modificateurs dus \u00e0 une armure ou une charge importante. Par exemple, un barbare humain a une vitesse de d\u00e9placement de 12 m\u00e8tres, au lieu de 9 m\u00e8tres, s\u0092il ne porte pas d\u0092armure ou une armure l\u00e9g\u00e8re. S\u0092il porte une armure interm\u00e9diaire, sa vitesse passe \u00e0 9 m\u00e8tres. Un barbare halfelin a une vitesse de 9 m\u00e8tres, au lieu de 6 m\u00e8tres, lorsqu\u0092il ne porte pas d\u0092armure ou un armure l\u00e9g\u00e8re. Lorsqu\u0092il porte une armure interm\u00e9diaire (ou qu\u0092il porte une charge interm\u00e9diaire), sa vitesse passe \u00e0 6 m\u00e8tres",
+            "feature_type": "ext"
+          },
+          "illettrisme": {
+            "type": "class_feature",
+            "name": "Illettrisme",
+            "id": "illettrisme",
+            "description": "Le barbare sont le seul aventurier qui ne sache pas automatiquement lire et \u00e9crire. Ils peuvent d\u00e9penser 2 points de comp\u00e9tence pour apprendre d\u0092un coup \u00e0 lire et \u00e9crire toutes les langues qu\u0092ils parlent"
+          },
+          "rage_de_berserker": {
+            "type": "class_feature",
+            "name": "Rage de berserker",
+            "id": "rage_de_berserker",
+            "description": "Un barbare peut entrer dans une rage destructrice un certain nombre de fois par jour. Dans cet \u00e9tat, il devient incroyablement plus fort et plus r\u00e9sistant, mais son m\u00e9pris du danger l\u0092emp\u00eache de se d\u00e9fendre efficacement. Il gagne temporairement un bonus de +4 en Force, un bonus de +4 en Constitution ainsi qu\u0092un bonus de moral de +2 aux jets de Volont\u00e9, mais subit dans le m\u00eame temps un malus de \u00962 \u00e0 la classe d\u0092armure",
+            "feature_type": "ext"
+          },
+          "esquive_instinctive": {
+            "type": "class_feature",
+            "name": "Esquive instinctive",
+            "id": "esquive_instinctive",
+            "description": "D\u00e8s le niveau 2, le barbare peut r\u00e9agir instinctivement avant m\u00eame que ses sens ne d\u00e9c\u00e8lent une menace. Il conserve son bonus de Dext\u00e9rit\u00e9 \u00e0 la CA m\u00eame s\u0092il est pris au d\u00e9pourvu ou attaqu\u00e9 par un adversaire invisible (il perd toujours ce bonus s\u0092il est immobilis\u00e9)",
+            "feature_type": "ext"
+          },
+          "sens_des_pieges": {
+            "type": "class_feature",
+            "name": "Sens des pi\u00e8ges",
+            "id": "sens_des_pieges",
+            "description": "\u00c0 partir du niveau 3, le barbare acquiert un sens intuitif lui permettant d\u0092\u00e9viter les dangers des pi\u00e8ges, ce qui se traduit par un bonus de +1 aux jets de R\u00e9flexes effectu\u00e9s pour \u00e9viter les pi\u00e8ges et un bonus d\u0092esquive de +1 \u00e0 la CA contre les attaques d\u00e9clench\u00e9es par des pi\u00e8ges. Ces bonus augmentent de +1 tous les 3 niveaux de barbare suppl\u00e9mentaires (niveaux 6, 9, 12, 15 et 18). Les bonus de sens des pi\u00e8ges de plusieurs classes se cumulent entre eux",
+            "feature_type": "ext"
+          },
+          "esquive_instinctive_superieure": {
+            "type": "class_feature",
+            "name": "Esquive instinctive sup\u00e9rieure",
+            "id": "esquive_instinctive_superieure",
+            "description": "Au niveau 5, le barbare ne peut plus \u00eatre pris en tenaille, car il pare les assauts de ses adversaires avec autant d\u0092aisance que s\u0092ils venaient tous de la m\u00eame direction. Les roublards ne peuvent plus lui porter des attaques sournoises en le prenant en tenaille, \u00e0 moins d\u0092avoir au moins 4 niveaux de roublard de plus que le personnage n\u0092a de niveaux de barbare",
+            "feature_type": "ext"
+          },
+          "reduction_des_degats": {
+            "type": "class_feature",
+            "name": "R\u00e9duction des d\u00e9g\u00e2ts",
+            "id": "reduction_des_degats",
+            "description": "\u00c0 partir du niveau 7, la r\u00e9sistance du barbare lui permet d\u0092ignorer une partie des d\u00e9g\u00e2ts inflig\u00e9s par les coups qu\u0092il encaisse. Chaque fois que le personnage est frapp\u00e9 par une arme ou une attaque naturelle, les d\u00e9g\u00e2ts qu\u0092il subit sont diminu\u00e9s de 1 point. Au niveau 10, puis tous les 3 niveaux de barbare suivants (niveaux 13, 16 et 19), cette r\u00e9duction des d\u00e9g\u00e2ts augmente d\u0092un point. Ce pouvoir peut amener les d\u00e9g\u00e2ts d\u0092une attaque \u00e0 0, mais pas en dessous",
+            "feature_type": "ext"
+          },
+          "rage_de_grand_berserker": {
+            "type": "class_feature",
+            "name": "Rage de grand berserker",
+            "id": "rage_de_grand_berserker",
+            "description": "\u00c0 partir du niveau 11, la rage de berserker conf\u00e8re au barbare un bonus de +6 en Force et en Constitution, ainsi qu\u0092un bonus de moral de +3 aux jets de Volont\u00e9. Le malus \u00e0 la CA reste de \u00962",
+            "feature_type": "ext"
+          },
+          "volonte_indomptable": {
+            "type": "class_feature",
+            "name": "Volont\u00e9 indomptable",
+            "id": "volonte_indomptable",
+            "description": "\u00c0 partir du niveau 14, un barbare obtient pendant sa rage un bonus de +4 sur ses jets de Volont\u00e9 jou\u00e9s pour r\u00e9sister aux sorts de l\u0092\u00e9cole des enchantements. Ce bonus se cumule avec les autres modificateurs, y compris le bonus de moral sur les jets de Volont\u00e9 qu\u0092il re\u00e7oit pendant sa rage",
+            "feature_type": "ext"
+          },
+          "rage_sans_fatigue": {
+            "type": "class_feature",
+            "name": "Rage sans fatigue",
+            "id": "rage_sans_fatigue",
+            "description": "Au niveau 17 et au-del\u00e0, un barbare n\u0092est plus fatigu\u00e9 au terme de sa rage de berserker",
+            "feature_type": "ext"
+          },
+          "rage_de_maitre_berserker": {
+            "type": "class_feature",
+            "name": "Rage de ma\u00eetre berserker",
+            "id": "rage_de_maitre_berserker",
+            "description": "Au niveau 20, la rage de berserker conf\u00e8re au barbare un bonus de +8 en Force et en Constitution, ainsi qu\u0092un bonus de moral de +4 aux jets de Volont\u00e9. Le malus \u00e0 la CA reste de \u00962",
+            "feature_type": "ext"
+          }
+        },
+        "gear": {
+          "type": "class_gear",
+          "name": "Armes et armures",
+          "id": "armes_et_armures",
+          "description": "Le barbare est form\u00e9 au maniement de toutes les armes courantes, des armes de guerre et des boucliers (\u00e0 l\u0092exception des pavois). Il est \u00e9galement form\u00e9 au port des armures l\u00e9g\u00e8res et interm\u00e9diaires"
         }
       },
       "niveaux_de_substitution": {
@@ -368,6 +887,21 @@
           "Seigneur des chevaux (Dragon Magazine #337)\nBarbare civilis\u00e9 (Manuel du Joueur de Gemmaline)\nBarbare des steppes (Eternal  Rome)",
           "Retour \u00e0 la liste des classes",
           ""
+        ]
+      },
+      "description": {
+        "text": "Ces combattants courageux et t\u00e9m\u00e9raires sont natifs des \u00e9tendues gel\u00e9es du nord ou des jungles cauchemardesques du sud. Selon les r\u00e9gions, les peuples civilis\u00e9s les d\u00e9signent sous le nom de barbares, baresarks ou berserkers (de ber, d\u00e9riv\u00e9 de bj\u00f6rn, et sekr, qui dans leur langue rugueuse, signifie respectivement \u00ab\u00a0ours\u00a0\u00bb et \u00ab\u00a0chemise\u00a0\u00bb) et les accusent de tous les crimes. Mais ces \"barbares\" ont maintes fois fait preuve de leur bravoure et de leur valeur \u00e0 ceux qui ont pris le risque de s'allier avec eux. Quant aux ennemis qui les sous-estimaient, ils ont d\u00e9couvert des guerriers rus\u00e9s, plein de ressources, pers\u00e9v\u00e9rants et impitoyables.\nLes barbares sont d'excellents combattants. Mais tandis que l'efficacit\u00e9 des guerriers provient de leur entra\u00eenement rigoureux, celle des barbares provient de la rage qui les anime. Quand la fureur du combat d\u00e9ferle en eux, ils deviennent brusquement plus forts et plus r\u00e9sistants aux attaques. Maintenir un tel \u00e9tat n\u00e9cessite une incroyable d\u00e9pense d'\u00e9nergie et les laisse \u00e9puis\u00e9s, aussi doivent-ils vaincre rapidement, ce qui ne leur pose g\u00e9n\u00e9ralement pas de probl\u00e8mes. A l'aise dans les contr\u00e9es sauvages, ils se d\u00e9placent tr\u00e8s rapidement au pas de course.\nLes barbares ne sont jamais loyaux. Ils peuvent se montrer honorables, mais au fond ils demeurent incontr\u00f4lables. Cette sauvagerie fait partie int\u00e9grante de leur nature et constitue leur principale force, mais elle est totalement incompatible avec un alignement loyal. Dans le meilleur des cas, les barbares chaotiques sont libres et particuli\u00e8rement spontan\u00e9s, mais ils peuvent \u00e9galement se montrer destructeurs et faire peu de cas de la vie.\nLa plupart des barbares faer\u00fbniens sont humains ou demi-orques. Ils viennent de r\u00e9gions comme les Terres gel\u00e9es, le Nord, la Rash\u00e9m\u00e9nie, mais aussi de diverses tribus des Contr\u00e9es du Mitan Occidentales. Les barbares nains viennent des \u00e9tendues glac\u00e9es septentrionales, des jungles de Chult et de poches dissimul\u00e9es dans des montagnes et collines recul\u00e9es. Les barbares elfes sont g\u00e9n\u00e9ralement des elfes sauvages originaires des chaudes for\u00eats m\u00e9ridio\u00adnales, comme la Wealdath ou le Bois de Chondal. Les seules tribus de barbares halfelins connues vivent au plus profond du Bois de Chondal et ne s'aventurent que rarement hors de l'\u00e9treinte v\u00e9g\u00e9tale de la for\u00eat.\nLes barbares d'autres races sont rares mais pas totalement exclus. Ainsi, on trouve parfois des barbares demi-elfes parmi les tribus humaines originaires du Nord et des Contr\u00e9s du Mitan Occidentales, ou encore dans le Bois de Yuir, o\u00f9 humains et elfes cohabitent depuis des g\u00e9n\u00e9rations. Les drows, elfes de la lune, elfes du soleil, gnomes et planaires embrassant une carri\u00e8re de barbare sont le plus souvent des individus qui furent pour une raison ou une autre \u00e9lev\u00e9s parmi des peuplades barbares.\n\u00c9tant habitu\u00e9s \u00e0 la vie sauvage, les barbares sont plus \u00e0 l'aise \u00e0 compagnie de r\u00f4deurs, de druides ou de pr\u00eatres de divinit\u00e9s de la nature. Beaucoup admirent le talent et la spontan\u00e9it\u00e9 des bardes, et certains sont passionn\u00e9s par la musique. Les barbares ne font pas confiance \u00e0 ce qu'ils ne comprennent pas, c'est le cas de la \"magie des livres\" (celle des magiciens). Les ensorceleurs leur poseront moins de probl\u00e8mes, mais peut-\u00eatre est-ce d\u00fb au seul fait qu'ils sont plus charismatiques que les magiciens. Le moine, dont l'approche du combat repose sur la rigueur et la ma\u00eetrise de soi, ne voient pas l'existence de la m\u00eame fa\u00e7on que les barbares, mais cela ne signifie pas l'hostilit\u00e9 entre les membres de ces deux classes. Enfin, les barbares n'\u00e9prouvent ni sympathie ni antipathie pour les guerriers, paladins ou roublards.\nLa Force est importante pour le barbare en raison de son r\u00f4le dans les combats ; de plus, certaines comp\u00e9tences essentielles pour lui, reposent sur cette caract\u00e9ristique. La Dext\u00e9rit\u00e9 est \u00e9galement utile, surtout s'il ne porte qu'une armure l\u00e9g\u00e8re. La Sagesse influe sur l'utilisation de certaines de ses comp\u00e9tences. Enfin, une valeur de Constitution \u00e9lev\u00e9e lui permet de maintenir son \u00e9tat de rage plus longtemps (et aussi de vivre plus vieux, en lui conf\u00e9rant davantage de points de vie).",
+        "resources": [
+          {
+            "name": "Source",
+            "content": [
+              {
+                "type": "link",
+                "href": "./LivreDD3/element-PHB.htm",
+                "text": "Manuel du Joueur"
+              }
+            ]
+          }
         ]
       }
     }
